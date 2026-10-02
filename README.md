@@ -1,42 +1,59 @@
-# Healthcare Dataset Analysis
+# Healthcare Dataset Analysis and Visualization
 
 ## Objective
 
-This project explores a healthcare dataset containing patient information such as age, gender, disease, medication, and dosage.
+This project analyzes a healthcare dataset containing patient details such as age, gender, diagnosis, treatment type, and medical charges. The project has two main parts:
+
+1. Data cleaning and exploratory analysis
+2. Data visualization to understand disease patterns, age distribution, gender ratio, and treatment trends
 
 ## Tasks Performed
 
-* Loaded and explored the healthcare dataset
+### Task 1: Data Cleaning and Analysis
+* Loaded the healthcare dataset
+* Explored the dataset structure and column types
 * Identified numerical and categorical columns
 * Checked for missing values
 * Identified and removed duplicate records
-* Handled missing numerical values using the median
-* Handled missing categorical values using the mode
+* Filled missing numerical values using the median
+* Filled missing categorical values using the mode
 * Calculated total patient records
 * Identified the most common diseases
 * Calculated average patient age
 * Analyzed gender distribution
 * Exported the cleaned dataset
 
+### Task 2: Data Visualization
+* Visualized disease distribution
+* Plotted age distribution of patients
+* Displayed gender ratio
+* Analyzed treatment type frequency
+* Created clear healthcare insights using charts and graphs
+
 ## Technologies Used
 
 * Python
 * Pandas
+* Matplotlib
+* Seaborn
+* Jupyter Notebook / Google Colab
 * GitHub
+
+## Dataset
+
+The project uses a healthcare patient dataset containing records such as:
+* patient ID
+* age
+* gender
+* diagnosis
+* treatment type
+* length of stay
+* insurance type
+* charges
 
 ## How to Run
 
+### 1. Install required libraries
+
 ```bash
-pip install pandas
-python analysis.py
-```
-
-## Files
-
-* `healthcare_dataset.csv` – Original healthcare dataset
-* `analysis.py` – Python data analysis script
-* `cleaned_healthcare_dataset.csv` – Cleaned dataset
-
-## Conclusion
-
-The dataset was successfully explored and cleaned. Missing values and duplicate records were handled, and basic patient statistics such as patient count, common diseases, gender distribution, and average age were calculated.
+pip install pandas matplotlib seaborn
